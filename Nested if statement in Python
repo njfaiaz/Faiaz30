@@ -1,0 +1,14 @@
+x = int(input("Enter your number: "))
+y = int(input("Enter your number: "))
+z = int(input("Enter your number: "))
+
+if x>y:
+    if x>z:
+        print('X is bigger,y, x')
+    else:
+        print('Z is bigger,x, y')
+elif y>x:
+    if y>z:
+        print('Y is bigger,x, z')
+    else:
+        print('z is bigger,y, x')
