@@ -1,0 +1,14 @@
+#  1 line e value assain name 
+# 01...........
+
+a, b = 10, 20
+
+x = a if a<b else b 
+print(x)
+
+# 02   Even Or Odd....................
+
+number = int(input("Enter your namber: "))
+
+res = 'Number is Even' if number % 2 == 0 else 'Number is Odd'
+print(res)
